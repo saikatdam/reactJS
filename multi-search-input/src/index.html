@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        h1{
+            text-align: center;
+            text-decoration: none;
+            
+        }
+
+        .mybtn{
+            text-align: center;
+            /* color: white;
+            background-color: #4CAF50;
+            text-decoration: none;
+            border-radius: 4px;
+            padding: 10px 20px; */
+
+        }
+
+        .container{
+            background-color: #f4f4f4;
+            padding: 60px 40px 20px 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 500px;
+        }
+    </style>
+    
+</head>
+<body>
+    <div class="container">
+
+        <h1>Hello</h1>
+        <button class="mybtn">Click Me</button>
+    </div>
+    
+
+    <script>
+        let arr =[1,2,3,4];
+        let myArr = Array(10*20).keys();
+        function valueDisplayMaker(){
+            let container = document.querySelector('.container');
+        myArr.forEach(element => {
+                html=`<div>
+                    <ul>
+                        <li>${element}</li>
+                        </ul>
+                    </div>`;
+                    container.innerHTML+=html;
+            });
+        }
+        valueDisplayMaker();
+    </script>
+</body>
+</html>

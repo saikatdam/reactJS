@@ -1,0 +1,39 @@
+.displayData li:hover{
+    background-color: gray;
+    
+
+
+}
+
+.displayData{
+    width: 200px;
+
+}
+
+
+.displayData li:last-child{
+    border-bottom: none;
+}
+
+.displayData img{
+    height: 20px;
+    cursor: pointer;
+}
+
+.displayData li{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 8px 10px;
+    border-bottom:1px solid #ccc ;
+}
+
+.pill-data{
+    height: 20px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: wheat;
+    border-radius: 13px;
+    cursor: pointer;
+}
