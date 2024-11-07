@@ -1,0 +1,57 @@
+/* src/components/Header.css */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+
+.menu-btn {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    margin-right: 20px;
+    color: #333;
+}
+
+.header h1 {
+    flex-grow: 1;
+    color: #333;
+    margin: 0;
+}
+
+.header-icons {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.header-icon {
+    position: relative;
+    color: #333;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.badge {
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    background-color: #ff5252;
+    color: #fff;
+    border-radius: 50%;
+    font-size: 0.75rem;
+    padding: 2px 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-profile {
+    color: #333;
+    cursor: pointer;
+}

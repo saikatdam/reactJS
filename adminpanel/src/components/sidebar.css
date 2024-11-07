@@ -1,0 +1,64 @@
+/* src/components/Sidebar.css */
+
+.sidebar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.close-btn {
+    background: none;
+    border: none;
+    font-size: 24px;
+    color: #cfd8dc;
+    cursor: pointer;
+}
+
+.sidebar {
+    width: 240px;
+    background-color: #2d3e50;
+    color: #cfd8dc;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    transition: transform 0.3s ease;
+    transform: translateX(-100%); /* Hide sidebar */
+    position: fixed;
+    height: 100%;
+    z-index: 10;
+}
+
+.sidebar.open {
+    transform: translateX(0);
+}
+
+
+.sidebar-logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pro-badge {
+    background-color: #ff5252;
+    color: #fff;
+    padding: 2px 3px;
+    border-radius: 4px;
+}
+
+.sidebar-nav {
+    margin-top: 20px;
+}
+
+.sidebar-item {
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.sidebar-heading {
+    margin-top: 15px;
+    font-size: 0.9em;
+    color: #b0bec5;
+}
+
+
